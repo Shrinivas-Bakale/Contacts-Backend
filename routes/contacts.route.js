@@ -6,7 +6,7 @@ import {
   deleteContactById,
   updateContactbyId,
 } from "../controller/contacts.controller.js";
-
+ 
 const router = Router();
 
 router.get("/getAllContacts", getAllContacts);
